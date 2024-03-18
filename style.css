@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  padding: 40px 60px;
+  /* background-color: red; */
+}
+
+#nav-part1 {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+#nav-part1 h4 {
+  /* background-color: red; */
+  margin-left: 25%;
+}
+
+#nav-part2 {
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+#nav h3 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+#nav h2 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+#nav h4 {
+  font-size: 22px;
+  font-weight: 100;
+}
+
+#content {
+  margin-top: 100px;
+  padding: 40px 60px;
+}
+
+#content h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#content h1 {
+  margin-top: 40px;
+  font-size: 130px;
+  font-weight: normal;
+  line-height: 130px;
+  letter-spacing: -12px;
+  /* word-spacing: -10px; */
+}
+
+#case {
+  padding: 40px 60px;
+  margin-top: 200px;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#case h4 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+#case h5 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+#right {
+  display: flex;
+  /* background-color: red; */
+  align-items: center;
+  gap: 40px;
+}
+
+#line {
+  height: 3px;
+  width: 150px;
+  background-color: black;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  gap: 50px;
+}
+
+.elem {
+  width: 50%;
+}
+
+.elem-img {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(158, 162, 165);
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 70px;
+}
+
+#img1 img {
+  height: 100%;
+}
+
+#img2 {
+  background-image: url(https://cdn.dribbble.com/userupload/5060068/file/original-dc9f0e16cf56698f83fc4cc23a9c9f64.png?resize=1504x1128);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.bottom i {
+  font-size: 25px;
+  border: 2px solid #000;
+  border-radius: 40px;
+  padding: 18px 28px;
+}
+
+.bottom i:hover {
+  background-color: black;
+  color: white;
+}
+
+.bottom h2 {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.bottom h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray;
+}
